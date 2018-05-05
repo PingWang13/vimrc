@@ -46,7 +46,7 @@ Bundle 'scrooloose/syntastic'
 "--12-- 大纲导航和树状列表上下显示
 "--13-- Vim自动显示函数生命在statline
 Bundle 'echofunc'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
@@ -293,7 +293,7 @@ highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 set t_Co=256
 set background=dark
-colorscheme  molokai
+"colorscheme  molokai
 
 "==============设置快捷键，快速开启加载的插件==============
 map <F9> ms:call AddAuthor()<cr>'s
