@@ -5,7 +5,7 @@ my vim configuration
 ### How to install
 
     git clone https://github.com/PingWang13/vimrc.git
-    (将文件复制到~/目录下)
+    [//]将文件复制到~/目录下
     
     
     cp ~/vimrc/vimrc ~/.vimrc
