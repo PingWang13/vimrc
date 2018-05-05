@@ -4,7 +4,7 @@ vimrc
 my vim configuration
 ### How to install
 
-    git clone https://github.com/PingWang13/vimrc.git ~/
+    git clone https://github.com/PingWang13/vimrc.git
     (将文件复制到~/目录下)
     
     
@@ -12,7 +12,7 @@ my vim configuration
     (将刚下载到的vimrc文件复制到~/目录下，并重命名为.vimrc)
     
     
-    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    sudo git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     (下载vundle插件管理插件，到~/.vim/bundle/vundle目录下)
     
 
