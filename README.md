@@ -4,6 +4,8 @@ vimrc
 my vim configuration
 ### How to install
 
+    sudo apt-get isntall ctags
+
     git clone https://github.com/PingWang13/vimrc.git
     [//]将文件复制到用户根目录下
     
