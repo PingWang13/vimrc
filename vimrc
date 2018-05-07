@@ -29,8 +29,6 @@ Bundle 'tmhedberg/SimpylFold'
 "Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 "--04--格式化代码
 Bundle 'Chiel92/vim-autoformat'
-"--05--自动补全插件
-" Bundle 'Valloric/YouCompleteMe'
 "--06--快速注释
 Bundle 'The-NERD-Commenter'
 "--07--在buffer内打开树状列表
@@ -43,10 +41,9 @@ Bundle 'bling/vim-airline'
 Bundle 'majutsushi/tagbar'
 "--11-- 语法检查插件
 Bundle 'scrooloose/syntastic'
-"--12-- 大纲导航和树状列表上下显示
 "--13-- Vim自动显示函数生命在statline
 Bundle 'echofunc'
-"Bundle 'Valloric/YouCompleteMe'
+
 
 call vundle#end()
 
