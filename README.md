@@ -14,6 +14,4 @@ my vim configuration
     
     5 sudo git clone https://github.com/gmarik/vundle.git      ~/.vim/bundle/vundle
     
-    6 sudo vim, then run
-    
-      :BundleInstall
+    6 sudo vim  +BundleList +BundleInstall +qall
