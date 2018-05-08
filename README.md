@@ -4,7 +4,7 @@ vimrc
 my vim configuration
 ### How to install
 
-    sudo apt-get isntall ctags
+    sudo apt-get install ctags
 
     git clone https://github.com/PingWang13/vimrc.git   
     
