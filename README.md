@@ -10,7 +10,7 @@ my vim configuration
     
     sudo cp -rf ~/vimrc/vimrc    ~/.vimrc
        
-    sudo git clone https://github.com/gmarik/vundle.git      ~/.vim/bundle/vundle
+    sudo git clone https://github.com/VundleVim/Vundle.vim      ~/.vim/bundle/vundle
     
 open VIM, then run
 
