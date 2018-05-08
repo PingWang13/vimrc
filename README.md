@@ -10,8 +10,10 @@ my vim configuration
     
     3 sudo cp -rf ~/vimrc/vimrc    ~/.vimrc
     
-    4 sudo git clone https://github.com/gmarik/vundle.git      ~/.vim/bundle/vundle
+    4 sudo cp -rf ~/vimrc/molokai.vim    ~/.vim/colors/
     
-    5 sudo vim, then run
+    5 sudo git clone https://github.com/gmarik/vundle.git      ~/.vim/bundle/vundle
+    
+    6 sudo vim, then run
     
       :BundleInstall
