@@ -18,7 +18,7 @@ autocmd BufWritePost $MYVIMRC source $MYVIMRC
 "================插件管理软件vundle的设置========================
 set nocompatible                            " 去除VI一致性,必须要添加
 filetype off                                " 必须要添加
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 "初始化vundle
 call vundle#begin()
 "--01--加载vundle插件
