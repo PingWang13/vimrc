@@ -8,9 +8,9 @@ my vim configuration
 
     git clone https://github.com/PingWang13/vimrc.git   
     
-    cp ~/vimrc/vimrc ~/.vimrc
+    sudo cp -rf ~/vimrc/vimrc    ~/.vimrc
        
-    sudo git clone https://github.com/gmarik/vundle.git   ~/.vim/bundle/vundle
+    sudo git clone https://github.com/gmarik/vundle.git      ~/.vim/bundle/vundle
     
 open VIM, then run
 
