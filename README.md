@@ -12,9 +12,7 @@ for(Ubuntu)
      
     3 sudo git clone https://github.com/PingWang13/vimrc.git   ~/package
     
-    4 cd package
-    
-    5 sudo chmod 777 vim_config.sh
+    4 cd package
     
-    6 ./vim_config.sh
+    5 ./vim_config.sh
     
