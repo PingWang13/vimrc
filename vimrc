@@ -284,13 +284,13 @@ set scrolloff=4            " 光标所在行下还有4行
 syntax enable               "设置语法高亮
 syntax on                   "允许使用指定语法高亮规则代替默认规则
 "===========================选择molokai的模式============================
-let g:rehash256 = 1
-let g:molokai_original = 1    "相较于上一个模式，个人比较喜欢此种模式
-highlight NonText guibg=#060606
-highlight Folded  guibg=#0A0A0A guifg=#9090D0
-set t_Co=256
-set background=dark
-colorscheme  molokai
+"let g:rehash256 = 1
+"let g:molokai_original = 1    "相较于上一个模式，个人比较喜欢此种模式
+"highlight NonText guibg=#060606
+"highlight Folded  guibg=#0A0A0A guifg=#9090D0
+"set t_Co=256
+"set background=dark
+"colorscheme  molokai
 
 "==============设置快捷键，快速开启加载的插件==============
 map <F9> ms:call AddAuthor()<cr>'s
