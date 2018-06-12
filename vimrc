@@ -42,7 +42,7 @@ Bundle 'majutsushi/tagbar'
 "--11-- 语法检查插件
 Bundle 'scrooloose/syntastic'
 "--13-- Vim自动显示函数生命在statline
-Bundle 'echofunc'
+"Bundle 'echofunc'
 
 
 call vundle#end()
@@ -52,8 +52,8 @@ set foldenable              " 开始折叠
 "set foldmethod=syntax       " 设置语法折叠
 set foldmethod=indent
 set foldcolumn=0            " 设置折叠区域的宽度
-setlocal foldlevel=99        " 设置折叠层数为
-" set foldclose=all           " 设置为自动关闭折叠                            
+"setlocal foldlevel=99        " 设置折叠层数为
+"set foldclose=all           " 设置为自动关闭折叠                            
 "nnoremap  @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')
                             " 用空格键来开关折叠
 au BufWinLeave * silent! mkview  " 保存文件的折叠状态
@@ -329,6 +329,7 @@ function AddTitle()
 endfunction
 
 "=================其他一般设置======================
+let autosave = 5
 set gcr=a:block-blinkoff0              "禁止光标闪烁
 "设置帮助语言为汉语
 set langmenu=zh_CN.UTF-8
@@ -389,4 +390,6 @@ set guifont=Bitstream_Vera_Sans_Mono:h10:cANSI
 
 set gfw=Yahei_Mono:h10:cGB2312
 
-
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
